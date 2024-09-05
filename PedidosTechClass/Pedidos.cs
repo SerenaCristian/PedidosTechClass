@@ -1,8 +1,29 @@
 ﻿public class Pedidos
 {
-    public double Quantidade;
-    public double Desconto;
-    public double Preco;
+    private double _quantidade;
+    private double _desconto;
+    public double _preco;
+
+
+
+    public double Quantidade
+    {
+        get { return _quantidade; }
+        set { _quantidade = value; }
+    }
+    public double Desconto
+    {
+        get { return _desconto; }
+        set { _desconto = value; }
+    }
+
+    public double Preco
+    {
+        get { return _desconto; }
+        set { _desconto = value; }
+    }
+
+
 
     public Pedidos(double quantidade, double desconto, double preco)
     {
